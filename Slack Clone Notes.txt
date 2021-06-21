@@ -1,0 +1,20 @@
+Slack App clone
+*ReactJs
+*Google User autentication (Firebase)
+*React Context API (Redux)
+* MaterialUI
+*Real Time database
+*React Router
+
+
+-review ajax
+-study concept of react router and Redux
+-review purpose of hooks
+-How to set reset style in react
+-remove stly on app.css and put *{margin:0} 5:56 //CSS RESET
+5:58 general overview of target
+-install es7 react redux snippits for rfce
+-6:06 traversing the material ui icon
+-install material ui core
+-intsll material ui icone
+-input field?
