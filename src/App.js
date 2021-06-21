@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
@@ -8,8 +9,10 @@ function App() {
       <h1>Caesar Hinlo Slack Clone</h1>
 
       <Header />
-      {/* SideBar*/}
-      {/* React Router ->Chat screen*/}
+      <div className="app__body">
+        <Sidebar />
+        {/* React Router ->Chat screen*/}
+      </div>
     </div>
   );
 }
