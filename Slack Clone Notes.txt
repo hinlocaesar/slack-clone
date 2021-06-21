@@ -26,3 +26,5 @@ Important note when passing a component as prop 6:88.22
 -font-size:16px !important; in css? atuthor said to override font size of material ui
 3:50confir for firebase
 npm i firebase install firebase to your project
+checkf firebase.js to check how to connect is on line 14
+6:55 nice features for importing and exporting files
