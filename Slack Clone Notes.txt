@@ -18,3 +18,6 @@ Slack App clone
 -install material ui core
 -intsll material ui icone
 -input field?
+-proper syntax of variable css
+-  flex: 0.3;what does this do? 6:16:40
+-6:17 .MusuSVGIcon-rro? what is this is this related to marterial ui?
