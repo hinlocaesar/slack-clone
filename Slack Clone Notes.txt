@@ -24,3 +24,5 @@ Slack App clone
 -6:29 reason why he made max width
 Important note when passing a component as prop 6:88.22
 -font-size:16px !important; in css? atuthor said to override font size of material ui
+3:50confir for firebase
+npm i firebase install firebase to your project
