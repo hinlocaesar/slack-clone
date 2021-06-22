@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Sidebar.css";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 import CreateIcon from "@material-ui/icons/Create";
 import SidebarOption from "./SidebarOption";
 import InsertCommentIcon from "@material-ui/icons/InsertComment";
+import db from "./firebase";
 
 function Sidebar() {
+  const [channels, setChannel] = useState([]);
+
+  useEffect(() => {
+    db.collection("rooms").onSnapshot((snapshot) =>
+      setChannel(
+        snapshot.docs.map((doc) => ({
+          id: doc.id,
+          name: doc.data().name,
+        }))
+      )
+    );
+  }, []);
+
   return (
     <div>
       <div className="sidebar">
@@ -32,6 +46,9 @@ function Sidebar() {
         <SidebarOption Icon={InsertCommentIcon} title="Replace Later" />
 
         {/*Connect to db and list all the channel and render using the sidebar option*/}
+        {channels.map((channel) => (
+          <SidebarOption title={channel.name} id={channel.id} />
+        ))}
       </div>
     </div>
   );
