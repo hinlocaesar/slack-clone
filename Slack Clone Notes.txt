@@ -6,6 +6,10 @@ Slack App clone
 *Real Time database
 *React Router
 
+//
+npm i firebase
+Go to website > npm install react-router-dom
+
 
 -review ajax
 -study concept of react router and Redux
@@ -33,3 +37,7 @@ checkf firebase.js to check how to connect is on line 14
 7:06 is implementation for listener to db using use effect
 useState and useEffect is a hook
 when to use arrow function?
+use effect also listen to changes and modify only part of the site
+
+//React Router Chat screen
+ introductin react router //changing chaneels witout reloading the screen

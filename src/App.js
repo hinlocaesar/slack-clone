@@ -1,19 +1,19 @@
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import SidebarOption from "./SidebarOption";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     //change app to
     <div className="app">
-      <h1>Caesar Hinlo Slack Clone</h1>
-
-      <Header />
-      <div className="app__body">
-        <Sidebar />
-        {/* React Router ->Chat screen*/}
-      </div>
+      <Router>
+        <Header />
+        <div className="app__body">
+          <Sidebar />
+          {/* React Router ->Chat screen*/}
+        </div>
+      </Router>
     </div>
   );
 }
