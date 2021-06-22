@@ -11,7 +11,7 @@ export default function Chat() {
       <div className="chat__header">
         <div className="chat__headerLeft">
           <h4 className="chat__channelName">
-            <strong>#GeneralTemp</strong>
+            <strong>#{roomId}</strong>
           </h4>
           <StarBorderOutlinedIcon />
         </div>

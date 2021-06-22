@@ -45,3 +45,6 @@ use effect also listen to changes and modify only part of the site
  
  Any function that start with use from react we call that a hook
  text-transform:lowercase
+ 
+ 
+ Continue at 7:36;
