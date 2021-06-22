@@ -41,3 +41,7 @@ use effect also listen to changes and modify only part of the site
 
 //React Router Chat screen
  introductin react router //changing chaneels witout reloading the screen
+ 7:20 react router vid
+ 
+ Any function that start with use from react we call that a hook
+ text-transform:lowercase
