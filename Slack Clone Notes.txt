@@ -51,4 +51,10 @@ use effect also listen to changes and modify only part of the site
  
  
  
- 7:40 history is used to programttical add url Use History();
+ 7:40 history is used to programttical add url Use History(); 
+ decoupled code meaning
+ 
+ 
+ 
+ IMPORTANT NOTE TIP!!
+ https://usehooks.com/
