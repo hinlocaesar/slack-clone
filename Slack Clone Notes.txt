@@ -48,3 +48,7 @@ use effect also listen to changes and modify only part of the site
  
  
  Continue at 7:36;
+ 
+ 
+ 
+ 7:40 history is used to programttical add url Use History();

@@ -16,6 +16,7 @@
 
 .chat__channelName {
   text-transform: lowercase;
+  display: flex;
 }
 
 .chat__headerRight {
