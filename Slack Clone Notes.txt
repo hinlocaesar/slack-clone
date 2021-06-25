@@ -60,5 +60,8 @@ use effect also listen to changes and modify only part of the site
  https://usehooks.com
  
  
+  place-items: center; what is this property?
+ 
+ 
  
  
