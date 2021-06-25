@@ -4,7 +4,6 @@ import Sidebar from "./Sidebar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Chat from "./Chat";
 import Message from "./Message";
-
 function App() {
   return (
     //change app to
